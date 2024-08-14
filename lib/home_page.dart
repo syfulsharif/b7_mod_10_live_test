@@ -43,11 +43,14 @@ class MyHomePage extends StatelessWidget {
               children: [
                 Text(
                   'Welcome To ',
-                  style: TextStyle(fontSize: 18.0),
+                  style: TextStyle(fontSize: 18.0, fontWeight: FontWeight.w400),
                 ),
                 Text(
                   'Flutter!',
-                  style: TextStyle(fontSize: 18.0, color: Color(0xFF44D1FD)),
+                  style: TextStyle(
+                      fontSize: 18.0,
+                      fontWeight: FontWeight.w400,
+                      color: Color(0xFF44D1FD)),
                 )
               ],
             )
